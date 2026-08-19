@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Masjid Matrimony — Brandon Alvarez</title>
+<meta name="description" content="Case study: matrimonial services software for masjids — candidate records and a structured compatibility layer. Product design and UX by Brandon.">
+<meta name="theme-color" content="#0B0B0C">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="../favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta property="og:title" content="Masjid Matrimony — Brandon Alvarez">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://YOURDOMAIN.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+
+<div class="overlay-grid" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="frame" aria-hidden="true">
+  <i class="t"></i><i class="b"></i><i class="l"></i><i class="r"></i>
+  <i class="t2"></i><i class="b2"></i>
+  <b class="c1" data-motif="mark" data-motif-weight="2.2"></b>
+  <b class="c2" data-motif="mark" data-motif-weight="2.2"></b>
+  <b class="c3" data-motif="mark" data-motif-weight="2.2"></b>
+  <b class="c4" data-motif="mark" data-motif-weight="2.2"></b>
+</div>
+<div class="progress" aria-hidden="true"><i></i></div>
+<div class="cursor" aria-hidden="true"><span class="label"></span></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+
+<header class="hdr">
+  <a class="mark" href="../index.html" data-cursor="Back">
+    <span class="glyph">B</span><span class="mono">Brandon Alvarez</span>
+  </a>
+  <nav>
+    <a href="../index.html#work" class="mono">Index</a>
+    <a href="../index.html#contact" class="mono">Contact</a>
+  </nav>
+  <span class="mono">02 / 03</span>
+</header>
+
+<main>
+
+<section class="cs-hero section-lattice">
+  <div class="lattice-band" data-lattice="132" aria-hidden="true"></div>
+  <div class="kicker mono">
+    <span>§ 02 — Case Study</span><span>UI Design · Web App</span><span>2025 — Present</span>
+  </div>
+
+  <h1 class="display d2 mask"><span>Masjid Matrimony</span></h1>
+
+  <p class="lede rv" style="max-width:36ch;margin-bottom:clamp(30px,4vw,56px)">
+    The masjid's marriage service, out of the filing cabinet and into <em>one honest record.</em>
+  </p>
+
+  <dl class="cs-meta mono">
+    <div><dt>Client</dt><dd>Ummah LLC — co-founded studio</dd></div>
+    <div><dt>Year</dt><dd>2025 — Present</dd></div>
+    <div><dt>Role</dt><dd>UI design — member &amp; admin views</dd></div>
+    <div><dt>Scope</dt><dd>UI design · Visual system · Design handoff</dd></div>
+    <div><dt>Platform</dt><dd>Web application</dd></div>
+    <div><dt>Sensitivity</dt><dd>High — private personal data</dd></div>
+  </dl>
+</section>
+
+<div class="band faint" data-lattice="46" data-lattice-centre aria-hidden="true"></div>
+
+<section class="section" style="padding-top:clamp(36px,5vw,70px)">
+  <div class="wrap">
+    <div class="slot wide ui wipe">
+      <img src="../assets/img/masjid-matrimony-hero.jpg" alt="Masjid Matrimony — browsing a de-identified candidate profile">
+      <span class="tick tl"></span><span class="tick tr"></span><span class="tick bl"></span><span class="tick br"></span>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="wrap">
+
+    <div class="cs-block rv">
+      <div class="label mono faint">Overview</div>
+      <div class="content">
+        <p data-dropcap><strong>Most masjids run their marriage service on paper.</strong> Forms in a binder,
+        a volunteer's memory, and a WhatsApp thread between two imams. It works until the person
+        holding it all steps back — then the institutional knowledge walks out the door with them.</p>
+        <p>Masjid Matrimony gives a masjid one private, reviewed place to run the whole thing.
+        <strong>I designed the interface — every screen a member sees and every screen the
+        committee works in — plus the visual language holding both together.</strong></p>
+      </div>
+    </div>
+
+    <div class="cs-block rv">
+      <div class="label mono faint">The Problem</div>
+      <div class="content">
+        <p>This is the most sensitive kind of data a community organisation holds, handled by
+        people who are not administrators by trade.</p>
+        <ul class="cs-list">
+          <li><b>01</b><span><strong>Scattered records.</strong> The same candidate exists as a paper form, a spreadsheet row and someone's notes — none of them agreeing.</span></li>
+          <li><b>02</b><span><strong>Privacy is non-negotiable.</strong> Who can see what, and when, had to be visible in the interface itself — not buried in a settings page.</span></li>
+          <li><b>03</b><span><strong>Matching is subjective.</strong> Families weigh things differently. A single opaque "match score" would have been both useless and offensive.</span></li>
+          <li><b>04</b><span><strong>Non-technical staff.</strong> If it needs training, it doesn't get used.</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cs-block rv">
+      <div class="label mono faint">Approach</div>
+      <div class="content">
+        <h3>Nobody has a name until they should</h3>
+        <p>Browsing shows a candidate ID — <em>#F251</em> — not a name or a photo. Age, height,
+        residence, status and religious preference sit in a plain data table underneath, with
+        eligibility stated outright. I designed it to look like a record, not a dating profile,
+        because that's the difference families actually care about.</p>
+
+        <h3>A seven-step application that doesn't feel like one</h3>
+        <p>The application is long by necessity — background, non-negotiables, preferences, your
+        story, photo. I designed it as numbered steps down the left with one card of fields at a
+        time, and put "kept private, never published" directly against the fields it applies to
+        rather than in a policy nobody reads.</p>
+
+        <h3>Two products, one language</h3>
+        <p>Members and the committee see different things, so I designed the admin console — the
+        review queue, the match-maker, profile fields — in the same navy, bone and gold, with the
+        same type. The volunteer running it should never feel like they've been handed the back
+        room of somebody else's software.</p>
+
+        <h3>Weight where the stakes are</h3>
+        <p>Deep navy for anything committing, bone for reading, a single gold accent for labels
+        and eyebrows. Serif headlines against a plain sans for data. It reads institutional and
+        careful, which is what a masjid needs it to be.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" data-theme="dark" style="padding-block:clamp(50px,7vw,110px)">
+  <div class="sec-lattice" data-lattice="118" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="sec-head mono">
+      <span class="idx">Fig. 2.1</span><span class="ttl">Interface</span><span class="aside">Selected screens</span>
+    </div>
+
+    <div class="slot wide rv ui">
+        <img src="../assets/img/masjid-matrimony-06.jpg" alt="Committee review queue">
+        <span class="tick tl"></span><span class="tick tr"></span><span class="tick bl"></span><span class="tick br"></span>
+      </div>
+
+    <div class="gal two">
+      <div class="slot rv ui">
+        <img src="../assets/img/masjid-matrimony-04.jpg" alt="Browse profiles">
+        <span class="tick tl"></span><span class="tick tr"></span><span class="tick bl"></span><span class="tick br"></span>
+      </div>
+      <div class="slot rv rv-d1 ui">
+        <img src="../assets/img/masjid-matrimony-05.jpg" alt="Matrimonial application">
+        <span class="tick tl"></span><span class="tick tr"></span><span class="tick bl"></span><span class="tick br"></span>
+      </div>
+      <div class="slot rv ui">
+        <img src="../assets/img/masjid-matrimony-01.jpg" alt="Sign in">
+        <span class="tick tl"></span><span class="tick tr"></span><span class="tick bl"></span><span class="tick br"></span>
+      </div>
+      <div class="slot rv rv-d1 ui">
+        <img src="../assets/img/masjid-matrimony-03.jpg" alt="Invitation code">
+        <span class="tick tl"></span><span class="tick tr"></span><span class="tick bl"></span><span class="tick br"></span>
+      </div>
+    </div>
+
+    <div class="slot wide rv ui">
+        <img src="../assets/img/masjid-matrimony-02.jpg" alt="Check your inbox">
+        <span class="tick tl"></span><span class="tick tr"></span><span class="tick bl"></span><span class="tick br"></span>
+      </div>
+  
+    <div class="mt-l">
+      <p class="mono faint" style="margin-bottom:.9rem">Fig. 2.7 — Palette, as built</p>
+      <div class="swatches rv">
+        <div class="sw" style="background:#15334F;color:#EFECE3"><span class="mono">Navy</span><span class="hex">#15334F</span></div>
+        <div class="sw" style="background:#B98532;color:#15334F"><span class="mono">Gold</span><span class="hex">#B98532</span></div>
+        <div class="sw" style="background:#EFECE3;color:#15334F"><span class="mono">Bone</span><span class="hex">#EFECE3</span></div>
+        <div class="sw" style="background:#FFFFFF;color:#15334F"><span class="mono">Paper</span><span class="hex">#FFFFFF</span></div>
+      </div>
+    </div>
+</div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="cs-block rv">
+      <div class="label mono faint">Delivered</div>
+      <div class="content">
+        <ul class="cs-list">
+          <li><b>A</b><span>Every member-facing screen: sign-in, invitation, application, browsing</span></li>
+          <li><b>B</b><span>The committee admin console: review queue, match-maker, profile fields</span></li>
+          <li><b>C</b><span>The visual system — palette, type pairing, star mark, components</span></li>
+          <li><b>D</b><span>Form, table and state design, handed off for build</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cs-block rv">
+      <div class="label mono faint">Outcome</div>
+      <div class="content">
+        <p>What I'm proudest of is the restraint. In a category full of swipe cards and match
+        percentages, this reads like an institution's record system — which is exactly what a
+        masjid needs it to be.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="center-orn"><div class="wrap"><div class="orn-rule">
+  <i class="sm" data-motif="mark" data-motif-weight="2.6"></i>
+  <i data-motif="khatam" data-motif-weight="1.5"></i>
+  <i class="sm" data-motif="mark" data-motif-weight="2.6"></i>
+</div></div></div>
+
+<a class="next wrap" href="cannon-pro-cutz.html" data-cursor="Next">
+  <div class="n-in">
+    <div>
+      <span class="mono faint">Next project — 03</span>
+      <div class="n-name outline mt-s">Cannon Pro Cutz</div>
+    </div>
+    <span class="mono muted">↗</span>
+  </div>
+</a>
+
+<footer class="section" data-theme="dark" style="padding-block:clamp(40px,5vw,80px)">
+  <div class="wrap ftr mono" style="border:0;padding:0">
+    <span class="muted">© <span data-year></span> Brandon Alvarez</span>
+    <div class="socials"><a href="../index.html">Index</a><a href="mailto:alvrz.brandon01@gmail.com">Email</a></div>
+    <span data-clock="America/New_York">--:--:--</span>
+  </div>
+</footer>
+
+</main>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
